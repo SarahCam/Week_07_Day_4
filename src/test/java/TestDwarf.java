@@ -31,4 +31,12 @@ public class TestDwarf {
         assertEquals(0, dwarf.getTreasureCount());
 
     }
+
+    @Test
+    public void canGetWeaponList() {
+        ArrayList<Weapon> weapons = new ArrayList<>();
+        assertEquals(weapons, dwarf.getWeaponList());
+        assertEquals(0, dwarf.getWeaponCount());
+
+    }
 }
