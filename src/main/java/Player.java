@@ -12,6 +12,10 @@ public abstract class Player {
         this.treasures = new ArrayList<>();
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getHealth() {
         return health;
     }

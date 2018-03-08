@@ -15,6 +15,11 @@ public class TestDwarf {
     }
 
     @Test
+    public void canGetName() {
+        assertEquals("Gimli", dwarf.getName());
+    }
+
+    @Test
     public void canGetHealth() {
         assertEquals(100, dwarf.getHealth());
     }
