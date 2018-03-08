@@ -15,4 +15,9 @@ public class TestTreasure {
     public void canGetTreasure() {
         assertEquals(TreasureType.GOLD, treasure.getTreasure());
     }
+
+    @Test
+    public void canGetValueOfTreasure() {
+        assertEquals(10, treasure.getTreasure().getValue());
+    }
 }

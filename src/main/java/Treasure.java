@@ -5,4 +5,8 @@ public class Treasure {
     public Treasure(TreasureType treasure) {
         this.treasure = treasure;
     }
+
+    public TreasureType getTreasure() {
+        return treasure;
+    }
 }
