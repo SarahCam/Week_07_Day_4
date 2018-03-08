@@ -26,4 +26,9 @@ public class TestKnight {
         assertEquals(copy, knight.getWeaponList());
     }
 
+    @Test
+    public void canGetArmours() {
+        ArrayList<Armour> copy = new ArrayList<>();
+        assertEquals(copy, knight.getArmourList());
+    }
 }
