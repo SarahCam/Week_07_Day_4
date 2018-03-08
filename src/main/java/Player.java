@@ -15,4 +15,14 @@ public abstract class Player {
     public int getHealth() {
         return health;
     }
+
+    public ArrayList<Treasure> getTreasureList() {
+        ArrayList<Treasure> copy = new ArrayList<>();
+        copy =  treasures;
+        return copy;
+    }
+
+    public int getTreasureCount() {
+        return treasures.size();
+    }
 }
